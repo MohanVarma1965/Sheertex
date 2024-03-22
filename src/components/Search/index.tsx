@@ -1,20 +1,14 @@
 import React, { useCallback } from "react";
 import { useAppDispatch, useAppSelector } from "../../redux/hooks";
 import { setSearchQuery } from "../../redux/slices/products/productsSlice";
-import { debounce } from "lodash";
 
 const SearchComponent: React.FC = () => {
   const searchQuery = useAppSelector((state) => state.products.filters.searchQuery);
   const dispatch = useAppDispatch();
 
-  const debouncedSearch = useCallback(
-    debounce((query: string) => dispatch(setSearchQuery(query)), 300),
-    [dispatch]
-  );
-
   const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const query = event.target.value;
-    debouncedSearch(query);
+    dispatch(setSearchQuery(query));
   };
 
   return (
