@@ -58,7 +58,7 @@ const productsSlice = createSlice({
       state.filters.sizes.push(action.payload);
     },
     removeSizeFilter(state, action: PayloadAction<string>) {
-      state.filters.sizes = state.filters.colors.filter((color) => color !== action.payload);
+      state.filters.sizes = state.filters.sizes.filter((size) => size !== action.payload);
     },
     addColorFilter(state, action: PayloadAction<string>) {
       if (!state.filters.colors.includes(action.payload)) {
