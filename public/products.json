@@ -1,0 +1,997 @@
+[
+  {
+    "id": "gid://shopify/Product/6730943823928",
+    "title": "The Full Stack Snowboard",
+    "publishedAt": "2022-04-29T16:18:03Z",
+    "handle": "the-full-stack",
+    "vendor": "Snowdevil",
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/41007290482744",
+          "availableForSale": false,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main_c8ff0b5d-c712-429a-be00-b29bd55cbc9d.jpg?v=1655933474",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          },
+          "price": {
+            "amount": "749.95",
+            "currencyCode": "USD"
+          },
+          "compareAtPrice": null,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Color",
+              "value": "Syntax"
+            }
+          ],
+          "product": {
+            "handle": "the-full-stack",
+            "title": "The Full Stack Snowboard"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "gid://shopify/Product/6730943955000",
+    "title": "The H2 Snowboard",
+    "publishedAt": "2022-04-29T16:18:04Z",
+    "handle": "the-h2-snowboard",
+    "vendor": "Snowdevil",
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/41007290712120",
+          "availableForSale": false,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main_0a40b01b-5021-48c1-80d1-aa8ab4876d3d.jpg?v=1655933200",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          },
+          "price": {
+            "amount": "629.95",
+            "currencyCode": "USD"
+          },
+          "compareAtPrice": {
+            "amount": "799.99",
+            "currencyCode": "USD"
+          },
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "L"
+            },
+            {
+              "name": "Color",
+              "value": "Reactive Blue"
+            }
+          ],
+          "product": {
+            "handle": "the-h2-snowboard",
+            "title": "The H2 Snowboard"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "gid://shopify/Product/7604647591992",
+    "title": "The Hero Snowboard",
+    "publishedAt": "2022-06-10T01:26:16Z",
+    "handle": "the-hero-snowboard",
+    "vendor": "Snowdevil",
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/42559099633720",
+          "availableForSale": true,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main_52f8e304-92d9-4a36-82af-50df8fe31c69.jpg?v=1655934107",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          },
+          "price": {
+            "amount": "629.95",
+            "currencyCode": "USD"
+          },
+          "compareAtPrice": {
+            "amount": "799.99",
+            "currencyCode": "USD"
+          },
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "M"
+            },
+            {
+              "name": "Color",
+              "value": "Reactive Blue"
+            }
+          ],
+          "product": {
+            "handle": "the-hero-snowboard",
+            "title": "The Hero Snowboard"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "gid://shopify/Product/7604648181816",
+    "title": "Mr. Huebert Hydroxy Snowboard",
+    "publishedAt": "2022-06-10T02:35:44Z",
+    "handle": "the-huebert-snowboard",
+    "vendor": "Snowdevil",
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/42559102648376",
+          "availableForSale": false,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main_9129b69a-0c7b-4f66-b6cf-c4222f18028a.jpg?v=1655934950",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          },
+          "price": {
+            "amount": "629.95",
+            "currencyCode": "USD"
+          },
+          "compareAtPrice": {
+            "amount": "799.99",
+            "currencyCode": "USD"
+          },
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "XL"
+            },
+            {
+              "name": "Color",
+              "value": "Reactive Blue"
+            }
+          ],
+          "product": {
+            "handle": "the-huebert-snowboard",
+            "title": "Mr. Huebert Hydroxy Snowboard"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "gid://shopify/Product/6730850828344",
+    "title": "The Hydrogen Snowboard",
+    "publishedAt": "2022-04-29T16:18:03Z",
+    "handle": "snowboard",
+    "vendor": "Snowdevil",
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/41007289630776",
+          "availableForSale": true,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1655932274",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          },
+          "price": {
+            "amount": "600.0",
+            "currencyCode": "USD"
+          },
+          "compareAtPrice": {
+            "amount": "649.95",
+            "currencyCode": "USD"
+          },
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "XXL"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Carbon-fiber"
+            }
+          ],
+          "product": {
+            "handle": "snowboard",
+            "title": "The Hydrogen Snowboard"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "gid://shopify/Product/7005119283256",
+    "title": "The Liquid Snowboard",
+    "publishedAt": "2022-04-29T16:18:04Z",
+    "handle": "the-liquid",
+    "vendor": "Snowdevil",
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/41007342321720",
+          "availableForSale": true,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main_b13ad453-477c-4ed1-9b43-81f3345adfd6.jpg?v=1655933143",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          },
+          "price": {
+            "amount": "749.95",
+            "currencyCode": "USD"
+          },
+          "compareAtPrice": null,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Color",
+              "value": "Syntax"
+            }
+          ],
+          "product": {
+            "handle": "the-liquid",
+            "title": "The Liquid Snowboard"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "gid://shopify/Product/7005113385016",
+    "title": "The Oxygen Snowboard",
+    "publishedAt": "2022-04-29T16:18:04Z",
+    "handle": "the-oxygen",
+    "vendor": "Snowdevil",
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/41007323545656",
+          "availableForSale": true,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main_d624f226-0a89-4fe1-b333-0d1548b43c06.jpg?v=1655932508",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          },
+          "price": {
+            "amount": "1025.0",
+            "currencyCode": "USD"
+          },
+          "compareAtPrice": null,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "L"
+            }
+          ],
+          "product": {
+            "handle": "the-oxygen",
+            "title": "The Oxygen Snowboard"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "gid://shopify/Product/6730943922232",
+    "title": "The S-Series Snowboard",
+    "publishedAt": "2022-04-29T16:18:04Z",
+    "handle": "shopify-aurora",
+    "vendor": "Snowdevil",
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/41007290810424",
+          "availableForSale": false,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main_589fc064-24a2-4236-9eaf-13b2bd35d21d.jpg?v=1655933595",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          },
+          "price": {
+            "amount": "699.95",
+            "currencyCode": "USD"
+          },
+          "compareAtPrice": null,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "M"
+            }
+          ],
+          "product": {
+            "handle": "shopify-aurora",
+            "title": "The S-Series Snowboard"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "gid://shopify/Product/6730949034040",
+    "title": "The Toggle Snowboard",
+    "publishedAt": "2022-04-29T16:18:04Z",
+    "handle": "mail-it-in-freestyle-snowboard",
+    "vendor": "Snowdevil",
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/41007290613816",
+          "availableForSale": true,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1655933847",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          },
+          "price": {
+            "amount": "885.95",
+            "currencyCode": "USD"
+          },
+          "compareAtPrice": null,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "XL"
+            },
+            {
+              "name": "Color",
+              "value": "Sea Green / Desert"
+            }
+          ],
+          "product": {
+            "handle": "mail-it-in-freestyle-snowboard",
+            "title": "The Toggle Snowboard"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "gid://shopify/Product/7605196881976",
+    "title": "The .dev Snowboard",
+    "publishedAt": "2022-06-22T21:51:15Z",
+    "handle": "the-dev-snowboard",
+    "vendor": "Snowdevil",
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/42562616623160",
+          "availableForSale": true,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main_0a4e9096-021a-4c1e-8750-24b233166a12.jpg?v=1655934614",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          },
+          "price": {
+            "amount": "729.95",
+            "currencyCode": "USD"
+          },
+          "compareAtPrice": {
+            "amount": "799.99",
+            "currencyCode": "USD"
+          },
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Color",
+              "value": "FED Green"
+            }
+          ],
+          "product": {
+            "handle": "the-dev-snowboard",
+            "title": "The .dev Snowboard"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "gid://shopify/Product/7605205041208",
+    "title": "The \"Now in 3D\" Snowboard",
+    "publishedAt": "2022-06-22T21:58:53Z",
+    "handle": "the-now-in-3d-snowboard",
+    "vendor": "Snowdevil",
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/42562624815160",
+          "availableForSale": true,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main_5127218a-8f6c-498f-b489-09242c0fab0a.jpg?v=1655935475",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          },
+          "price": {
+            "amount": "2629.95",
+            "currencyCode": "USD"
+          },
+          "compareAtPrice": {
+            "amount": "3000.0",
+            "currencyCode": "USD"
+          },
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "L"
+            },
+            {
+              "name": "Color",
+              "value": "Reactive Blue"
+            }
+          ],
+          "product": {
+            "handle": "the-now-in-3d-snowboard",
+            "title": "The \"Now in 3D\" Snowboard"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "gid://shopify/Product/7605361705016",
+    "title": "The Hosted Snowboard",
+    "publishedAt": "2022-06-22T22:56:00Z",
+    "handle": "the-hosted-snowboard",
+    "vendor": "Snowdevil",
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/42562781741112",
+          "availableForSale": true,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main_b9e0da7f-db89-4d41-83f0-7f417b02831d.jpg?v=1655938557",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          },
+          "price": {
+            "amount": "2629.95",
+            "currencyCode": "USD"
+          },
+          "compareAtPrice": {
+            "amount": "3000.0",
+            "currencyCode": "USD"
+          },
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "XL"
+            },
+            {
+              "name": "Color",
+              "value": "Reactive Blue"
+            }
+          ],
+          "product": {
+            "handle": "the-hosted-snowboard",
+            "title": "The Hosted Snowboard"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "gid://shopify/Product/7924446920760",
+    "title": "The Apex",
+    "publishedAt": "2023-05-19T18:33:53Z",
+    "handle": "the-apex",
+    "vendor": "Snowdevil",
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/43567672361016",
+          "availableForSale": true,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Apex.jpg?v=1684520279",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          },
+          "price": {
+            "amount": "729.95",
+            "currencyCode": "USD"
+          },
+          "compareAtPrice": {
+            "amount": "749.95",
+            "currencyCode": "USD"
+          },
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Color",
+              "value": "FED Green"
+            }
+          ],
+          "product": {
+            "handle": "the-apex",
+            "title": "The Apex"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "gid://shopify/Product/7924446953528",
+    "title": "The Ascend",
+    "publishedAt": "2023-05-19T18:33:54Z",
+    "handle": "the-ascend",
+    "vendor": "Snowdevil",
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/43567672459320",
+          "availableForSale": true,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-ascend.jpg?v=1684520288",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          },
+          "price": {
+            "amount": "799.99",
+            "currencyCode": "USD"
+          },
+          "compareAtPrice": null,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "L"
+            },
+            {
+              "name": "Color",
+              "value": "FED Green"
+            }
+          ],
+          "product": {
+            "handle": "the-ascend",
+            "title": "The Ascend"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "gid://shopify/Product/7924446986296",
+    "title": "The Atlas",
+    "publishedAt": "2023-05-19T18:33:54Z",
+    "handle": "the-atlas",
+    "vendor": "Snowdevil",
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/43567672557624",
+          "availableForSale": true,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-atlas-x.jpg?v=1684520296",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          },
+          "price": {
+            "amount": "729.95",
+            "currencyCode": "USD"
+          },
+          "compareAtPrice": {
+            "amount": "749.95",
+            "currencyCode": "USD"
+          },
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "M"
+            },
+            {
+              "name": "Color",
+              "value": "FED Green"
+            }
+          ],
+          "product": {
+            "handle": "the-atlas",
+            "title": "The Atlas"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "gid://shopify/Product/7924447019064",
+    "title": "The Blaze",
+    "publishedAt": "2023-05-19T18:33:54Z",
+    "handle": "the-blaze",
+    "vendor": "Snowdevil",
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/43567672655928",
+          "availableForSale": true,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-blaze.jpg?v=1684520306",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          },
+          "price": {
+            "amount": "729.95",
+            "currencyCode": "USD"
+          },
+          "compareAtPrice": null,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "M"
+            },
+            {
+              "name": "Color",
+              "value": "FED Green"
+            }
+          ],
+          "product": {
+            "handle": "the-blaze",
+            "title": "The Blaze"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "gid://shopify/Product/7924447051832",
+    "title": "The Blaze X",
+    "publishedAt": "2023-05-19T18:33:55Z",
+    "handle": "the-blaze-x",
+    "vendor": "Snowdevil",
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/43567672754232",
+          "availableForSale": true,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-blaze_3223af41-2376-404b-a5db-b71d21084c20.jpg?v=1684520314",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          },
+          "price": {
+            "amount": "729.95",
+            "currencyCode": "USD"
+          },
+          "compareAtPrice": {
+            "amount": "799.99",
+            "currencyCode": "USD"
+          },
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "L"
+            },
+            {
+              "name": "Color",
+              "value": "FED Green"
+            }
+          ],
+          "product": {
+            "handle": "the-blaze-x",
+            "title": "The Blaze X"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "gid://shopify/Product/7924447084600",
+    "title": "The Blizzard",
+    "publishedAt": "2023-05-19T18:33:56Z",
+    "handle": "the-blizzard",
+    "vendor": "Snowdevil",
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/43567672852536",
+          "availableForSale": true,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-blizzar.jpg?v=1684520322",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          },
+          "price": {
+            "amount": "729.95",
+            "currencyCode": "USD"
+          },
+          "compareAtPrice": {
+            "amount": "799.99",
+            "currencyCode": "USD"
+          },
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "XL"
+            },
+            {
+              "name": "Color",
+              "value": "FED Green"
+            }
+          ],
+          "product": {
+            "handle": "the-blizzard",
+            "title": "The Blizzard"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "gid://shopify/Product/7924447117368",
+    "title": "The Carbon",
+    "publishedAt": "2023-05-19T18:33:56Z",
+    "handle": "the-carbon",
+    "vendor": "Snowdevil",
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/43567672950840",
+          "availableForSale": true,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Carbon.jpg?v=1684520330",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          },
+          "price": {
+            "amount": "729.95",
+            "currencyCode": "USD"
+          },
+          "compareAtPrice": null,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "XL"
+            },
+            {
+              "name": "Color",
+              "value": "FED Green"
+            }
+          ],
+          "product": {
+            "handle": "the-carbon",
+            "title": "The Carbon"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "gid://shopify/Product/7924447150136",
+    "title": "The Dynamo",
+    "publishedAt": "2023-05-19T18:33:56Z",
+    "handle": "the-dynamo",
+    "vendor": "Snowdevil",
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/43567673049144",
+          "availableForSale": true,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Dynamo.jpg?v=1684520339",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          },
+          "price": {
+            "amount": "729.95",
+            "currencyCode": "USD"
+          },
+          "compareAtPrice": null,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Color",
+              "value": "FED Green"
+            }
+          ],
+          "product": {
+            "handle": "the-dynamo",
+            "title": "The Dynamo"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "gid://shopify/Product/7924447182904",
+    "title": "The Eclipse",
+    "publishedAt": "2023-05-19T18:33:57Z",
+    "handle": "the-eclipse",
+    "vendor": "Snowdevil",
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/43567673147448",
+          "availableForSale": true,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Eclipse.jpg?v=1684520346",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          },
+          "price": {
+            "amount": "749.95",
+            "currencyCode": "USD"
+          },
+          "compareAtPrice": null,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Color",
+              "value": "FED Green"
+            }
+          ],
+          "product": {
+            "handle": "the-eclipse",
+            "title": "The Eclipse"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "gid://shopify/Product/7924447215672",
+    "title": "The Edge",
+    "publishedAt": "2023-05-19T18:33:58Z",
+    "handle": "the-edge",
+    "vendor": "Snowdevil",
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/43567673245752",
+          "availableForSale": true,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-edge.jpg?v=1684520355",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          },
+          "price": {
+            "amount": "729.95",
+            "currencyCode": "USD"
+          },
+          "compareAtPrice": null,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "M"
+            },
+            {
+              "name": "Color",
+              "value": "FED Green"
+            }
+          ],
+          "product": {
+            "handle": "the-edge",
+            "title": "The Edge"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "gid://shopify/Product/7924447248440",
+    "title": "The Element",
+    "publishedAt": "2023-05-19T18:33:58Z",
+    "handle": "the-element",
+    "vendor": "Snowdevil",
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/43567673344056",
+          "availableForSale": true,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-element.jpg?v=1684520363",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          },
+          "price": {
+            "amount": "749.95",
+            "currencyCode": "USD"
+          },
+          "compareAtPrice": {
+            "amount": "799.99",
+            "currencyCode": "USD"
+          },
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "L"
+            },
+            {
+              "name": "Color",
+              "value": "FED Green"
+            }
+          ],
+          "product": {
+            "handle": "the-element",
+            "title": "The Element"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "gid://shopify/Product/7924447281208",
+    "title": "The Elemental",
+    "publishedAt": "2023-05-19T18:33:58Z",
+    "handle": "the-elemental",
+    "vendor": "Snowdevil",
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/43567673442360",
+          "availableForSale": true,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-element_30d444e8-b9a8-4f95-8d7e-e151f3265ce8.jpg?v=1684520372",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          },
+          "price": {
+            "amount": "729.95",
+            "currencyCode": "USD"
+          },
+          "compareAtPrice": {
+            "amount": "799.99",
+            "currencyCode": "USD"
+          },
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "M"
+            },
+            {
+              "name": "Color",
+              "value": "FED Green"
+            }
+          ],
+          "product": {
+            "handle": "the-elemental",
+            "title": "The Elemental"
+          }
+        }
+      ]
+    }
+  }
+]
