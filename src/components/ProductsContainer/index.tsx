@@ -62,47 +62,41 @@ const ProductsContainer: React.FC = () => {
 
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-10 gap-4 p-4 items-end">
-        <div className="col-span-1 md:col-span-7">
+      <div className="flex items-center justify-between py-4 md:py-8 md:space-x-6 md:max-w-xl md:mx-auto">
+        <div className="flex-1">
           <SearchComponent />
         </div>
-        <div className="hidden md:flex md:justify-around col-span-1 md:col-span-3 bg-gray-200">
+        <div className="hidden px-4 bg-gray-200 border border-gray-300 rounded-sm md:flex">
           <FilterComponent />
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center">
+      <div className="grid grid-cols-1 gap-4 px-4 sm:grid-cols-2 md:lg-grid-cols-3 lg:grid-cols-4 justify-items-center">
         {sortedProducts.map((product) =>
           product.variants.nodes.map((variant: any) => (
-            <div key={variant.id} className="max-w-sm w-full rounded overflow-hidden shadow-lg">
+            <div key={variant.id} className="w-full max-w-sm overflow-hidden rounded shadow-lg">
               <img className="w-full" src={variant.image.url} alt={variant.image.altText || product.title} />
-              <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">{product.title}</div>
-                {variant.availableForSale ? (
-                  <p className="text-green-500">Available for sale</p>
-                ) : (
-                  <p className="text-red-500">Not available for sale</p>
+              <div className="flex flex-col justify-between p-6 space-y-4">
+                <div className="text-xl font-semibold">{product.title}</div>
+                {!variant.availableForSale && (
+                  <p className="px-4 py-1 text-white bg-red-500 rounded-md w-fit whitespace-wrap">Out of stock</p>
                 )}
-                <p className="text-gray-700 text-base">
-                  {variant.selectedOptions.map((option: any) => (
-                    <span
-                      key={option.name}
-                      className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-                    >
-                      {option.name}: {option.value}
+                <p className="text-base text-black">
+                  {variant.selectedOptions.map((option: any, index: number) => (
+                    <span key={option.name} className={`inline-block text-sm font-medium pr-2`}>
+                      <span className="underline">{option.name}</span>: {option.value}
                     </span>
                   ))}
                 </p>
-              </div>
-              <div className="px-6 pt-4 pb-2">
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                  ${variant.price.amount} {variant.price.currencyCode}
-                </span>
-                {variant.compareAtPrice && (
-                  <span className="inline-block bg-red-200 rounded-full px-3 py-1 text-sm font-semibold text-red-700 mr-2 mb-2 line-through">
-                    ${variant.compareAtPrice.amount}
-                  </span>
-                )}
+                <div>
+                  {variant.compareAtPrice && (
+                    <span className="inline-block mr-2 font-medium text-red-700 line-through text-md">
+                      ${variant.compareAtPrice.amount} {variant.price.currencyCode}
+                    </span>
+                  )}
+
+                  <span className="inline-block font-medium text-black text-md">${variant.price.amount}</span>
+                </div>
               </div>
             </div>
           ))

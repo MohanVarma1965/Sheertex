@@ -23,25 +23,25 @@ const ColorsFilter: React.FC = () => {
   const colorOptions = ["FED Green", "Syntax", "Sea Green / Desert", "Reactive Blue"];
 
   return (
-    <div className="color-filters space-y-4">
-      <button className="flex justify-between items-center py-3 w-full text-left font-semibold" onClick={toggleExpand}>
-        <span className="text-lg font-medium">Shop By Color</span>
+    <div className="pb-4 space-y-4 color-filters">
+      <button className="flex items-center justify-between w-full pt-3 font-semibold text-left" onClick={toggleExpand}>
+        <span className="text-lg font-medium">Shop by color</span>
         {isExpanded ? <span>▲</span> : <span>▼</span>}
       </button>
       {isExpanded && (
-        <div className="border-t border-gray-200 pt-2">
+        <>
           {colorOptions.map((color) => (
-            <label key={color} className="flex items-center space-x-3 py-1">
+            <label key={color} className="flex items-center space-x-3">
               <input
                 type="checkbox"
                 checked={colors.includes(color)}
                 onChange={(e) => handleColorChange(color, e.target.checked)}
-                className="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
+                className="w-4 h-4 text-black border-gray-300 rounded accent-black focus:ring-black"
               />
               <span className="text-sm font-medium text-gray-700">{color}</span>
             </label>
           ))}
-        </div>
+        </>
       )}
     </div>
   );

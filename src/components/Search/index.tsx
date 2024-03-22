@@ -13,11 +13,11 @@ const SearchComponent: React.FC = () => {
 
   return (
     <input
-      type="text"
+      type="search"
       value={searchQuery} // Controlled by Redux state
       onChange={handleSearchChange}
       placeholder="Search products..."
-      className="w-full p-2 text-base border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+      className="w-[96%] md:w-full mx-auto p-2 text-base border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black focus:border-black"
       style={{ margin: "0.5rem", fontSize: "1rem" }}
     />
   );

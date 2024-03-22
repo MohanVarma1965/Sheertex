@@ -20,49 +20,47 @@ const FilterComponent: React.FC = () => {
 
   return (
     <>
-      <button className="py-4 px-4 rounded-md flex items-center justify-center space-x-2" onClick={toggleDrawer}>
+      <button className="flex items-center justify-center py-2 text-white rounded-md sm:px-4 md:text-black" onClick={toggleDrawer}>
         <span className="hidden md:inline">Filters</span>
-        <svg
-          className="w-6 h-6"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M3 4.5h14.25M3 9h9.75M3 13.5h9.75m4.5-4.5v12m0 0-3.75-3.75M17.25 21 21 17.25" />
         </svg>
       </button>
 
       {drawerOpen && (
-        <div className="fixed inset-0 overflow-hidden">
+        <div className="fixed inset-0 overflow-hidden text-black">
           <div className="absolute inset-0 overflow-hidden">
             {/* Background overlay */}
-            <div className="absolute inset-0 bg-gray-500 bg-opacity-75 transition-opacity" onClick={toggleDrawer}></div>
+            <div className="absolute inset-0 transition-opacity bg-gray-500 bg-opacity-75" onClick={toggleDrawer}></div>
 
-            <section className="absolute inset-y-0 right-0 pl-10 max-w-full flex">
+            <section className="absolute inset-y-0 right-0 flex max-w-full pl-10">
               {/* Side drawer container */}
               <div className="w-screen max-w-md">
-                <div className="h-full flex flex-col bg-white shadow-xl overflow-y-scroll p-4">
-                  <header className="space-y-1 py-4 px-6 bg-gray-50 border-b border-gray-200">
+                <div className="flex flex-col h-full p-4 overflow-y-scroll bg-white shadow-xl">
+                  <header className="px-4 py-4 space-y-1 border-b border-gray-200 bg-gray-50">
                     <div className="flex items-center justify-between">
                       <h2 className="text-lg font-medium text-gray-900">Filters</h2>
-                      <button className="text-gray-400 hover:text-gray-500" onClick={toggleDrawer}>
+                      <button className="p-2 text-red-400 hover:text-gray-500" onClick={toggleDrawer}>
                         <span className="sr-only">Close panel</span>
                         Close
                       </button>
                     </div>
                   </header>
-                  <AvailableForSaleFilter />
-                  <SortComponent />
-                  <SizesFilter />
-                  <ColorFilter />
-
-                  <div className="mt-auto p-4">
-                    <div className="w-full  text-white py-2 px-4 rounded-md hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-black focus:ring-opacity-75">
+                  <div className="px-4">
+                    <SortComponent />
+                    <AvailableForSaleFilter />
+                    <hr />
+                    <SizesFilter />
+                    <hr />
+                    <ColorFilter />
+                    <hr />
+                  </div>
+                  <div className="p-4 mt-auto">
+                    <div className="w-full mb-4 text-white rounded-md hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-black focus:ring-opacity-75">
                       {hasActiveFilters && <ClearFilters />}
                     </div>
                     <button
-                      className="w-full bg-black text-white py-2 px-4 rounded-md hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-black focus:ring-opacity-75"
+                      className="w-full px-4 py-2 text-white bg-black rounded-md hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-black focus:ring-opacity-75"
                       onClick={toggleDrawer}
                     >
                       View Products

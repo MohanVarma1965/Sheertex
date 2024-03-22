@@ -11,17 +11,18 @@ const Sort: React.FC = () => {
   };
 
   return (
-    <div className="flex items-center  rounded-md p-2">
-      <div className="text-sm font-medium text-gray-700 mr-2">SortBy:</div>
+    <div className="py-4">
+      <div className="pb-2 text-lg font-medium">Sort products</div>
       <select
         onChange={handleSortChange}
-        className="flex-1 border-gray-300 text-sm rounded-md focus:outline-none focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+        className="flex-1 p-2 mb-4 font-medium border-gray-300 rounded-md accent-black text-md focus:outline-none focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
       >
         <option value="name_ascending">Name Ascending</option>
         <option value="name_descending">Name Descending</option>
         <option value="price_ascending">Price Ascending</option>
         <option value="price_descending">Price Descending</option>
       </select>
+      <hr />
     </div>
   );
 };

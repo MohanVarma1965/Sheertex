@@ -11,16 +11,16 @@ const AvailableForSaleFilter: React.FC = () => {
   };
 
   return (
-    <div className="flex items-center py-2">
+    <div className="flex items-center pt-2 pb-4">
       <input
         id="available-for-sale"
         type="checkbox"
         checked={!!availableForSale} // controlled by Redux state
-        className="h-5 w-5 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
+        className="w-5 h-5 text-indigo-600 border-gray-300 rounded accent-red-500 focus:ring-indigo-500"
         onChange={handleAvailableChange}
       />
-      <label htmlFor="available-for-sale" className="ml-4 text-base font-medium text-gray-700">
-        Available for Sale
+      <label htmlFor="available-for-sale" className="ml-4 text-base font-medium">
+        Show only In-stock items
       </label>
     </div>
   );

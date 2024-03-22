@@ -9,7 +9,7 @@
       "nodes": [
         {
           "id": "gid://shopify/ProductVariant/41007290482744",
-          "availableForSale": false,
+          "availableForSale": true,
           "image": {
             "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main_c8ff0b5d-c712-429a-be00-b29bd55cbc9d.jpg?v=1655933474",
             "altText": null,
@@ -135,7 +135,7 @@
       "nodes": [
         {
           "id": "gid://shopify/ProductVariant/42559102648376",
-          "availableForSale": false,
+          "availableForSale": true,
           "image": {
             "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main_9129b69a-0c7b-4f66-b6cf-c4222f18028a.jpg?v=1655934950",
             "altText": null,
@@ -672,7 +672,7 @@
       "nodes": [
         {
           "id": "gid://shopify/ProductVariant/43567672754232",
-          "availableForSale": true,
+          "availableForSale": false,
           "image": {
             "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-blaze_3223af41-2376-404b-a5db-b71d21084c20.jpg?v=1684520314",
             "altText": null,

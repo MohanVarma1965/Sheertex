@@ -22,25 +22,25 @@ const SizesFilter: React.FC = () => {
   const sizesOptions = ["S", "M", "L", "XL"];
 
   return (
-    <div className="size-filters space-y-4">
-      <button className="flex justify-between items-center py-3 w-full text-left font-semibold" onClick={toggleExpand}>
-        <span className="text-lg font-medium">Shop By Size</span>
+    <div className="pb-4 space-y-4 size-filters">
+      <button className="flex items-center justify-between w-full pt-3 font-semibold text-left" onClick={toggleExpand}>
+        <span className="text-lg font-medium">Shop by size</span>
         {isExpanded ? <span>▲</span> : <span>▼</span>}
       </button>
       {isExpanded && (
-        <div className="border-t border-gray-200 pt-2">
+        <>
           {sizesOptions.map((size) => (
-            <label key={size} className="flex items-center space-x-3 py-1">
+            <label key={size} className="flex items-center space-x-3">
               <input
                 type="checkbox"
                 checked={sizes.includes(size)}
                 onChange={(e) => handleSizeChange(size, e.target.checked)}
-                className="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
+                className="w-4 h-4 border-gray-300 rounded accent-black focus:ring-indigo-500"
               />
               <span className="text-sm font-medium text-gray-700">{size}</span>
             </label>
           ))}
-        </div>
+        </>
       )}
     </div>
   );
